@@ -352,6 +352,8 @@ export const SEARCH_ENGINES: Readonly<
     contentScripts: [
       {
         matches: [
+          "*://searx/search*",
+          "*://searx.corp.coyenterprises.com/search*",
           "*://searx.be/search*",
           "*://searx.fmac.xyz/search*",
           "*://search.unlocked.link/search*",
